@@ -17,7 +17,6 @@ $client = new \Lemenio\SmsApi\SmsApiClient(
 );
 
 //sending messages
-
 $client->sendMessage(
     '123456789', //phone number
     'Test message' //message
