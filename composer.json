@@ -1,0 +1,33 @@
+{
+  "name": "lemenio/sms-api-client",
+  "description": "PHP Client library for Lemenio SMS gateway API",
+  "type": "library",
+  "homepage": "https://lemenio.com",
+  "keywords": [
+    "sms",
+    "gateway",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Bednář",
+      "email": "jan.bednar@lemenio.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Lemenio\\SmsApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "php-http/httplug": "2.x-dev",
+    "php-http/message": "^1.13",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "7.4.x-dev",
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  }
+}
