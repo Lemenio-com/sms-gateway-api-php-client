@@ -16,6 +16,7 @@
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Lemenio\\SmsApi\\": "src/"
@@ -24,7 +25,7 @@
   "require": {
     "php": ">=7.0",
     "ext-curl": "*",
-    "guzzlehttp/guzzle": "7.4.x-dev",
+    "guzzlehttp/guzzle": "^7.4.5",
     "ext-mbstring": "*",
     "ext-json": "*"
   }
