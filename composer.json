@@ -23,8 +23,6 @@
   },
   "require": {
     "php": ">=7.0",
-    "php-http/httplug": "2.x-dev",
-    "php-http/message": "^1.13",
     "ext-curl": "*",
     "guzzlehttp/guzzle": "7.4.x-dev",
     "ext-mbstring": "*",
