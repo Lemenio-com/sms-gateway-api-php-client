@@ -15,7 +15,7 @@
       "email": "jan.bednar@lemenio.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Lemenio\\SmsApi\\": "src/"
