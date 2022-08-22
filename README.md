@@ -6,7 +6,7 @@ Insert following repository into composer.json
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://vcs.lemenio.com/Lemenio/sms-gateway-api-php-client.git"
+        "url": "https://github.com/Lemenio-com/sms-gateway-api-php-client.git"
     }
 ]
 ```
