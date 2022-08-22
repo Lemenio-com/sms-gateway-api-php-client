@@ -30,9 +30,9 @@ $config = [
 
 //client initialization
 $client = new \Lemenio\SmsApi\SmsApiClient(
+    $config['uri'],
     $config['username'],
     $config['password'],
-    $config['uri'],
     $config['port']
 );
 
